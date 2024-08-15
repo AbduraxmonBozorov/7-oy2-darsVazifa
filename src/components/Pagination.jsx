@@ -15,7 +15,7 @@ export default function PaginatedItems({ itemsPerPage, pageCount, currentItems }
   return (
     <div className='my-3'>
       <ReactPaginate
-       className='border border-red-400 flex flex-row justify-end gap-3'
+       className='flex flex-row justify-end gap-3'
         breakLabel="..."
         nextLabel="next >"
         onPageChange={handlePageClick}
